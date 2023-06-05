@@ -1,0 +1,111 @@
+# SOK-1006 V23 Mappeoppgave 2
+
+## Innføring av bompenger i Tromsø: Effekt på bilisters atferd og velferd
+
+**Kapittel 1 - Innledning**
+
+Hva er bompenger?
+
+------------------------------------------------------------------------
+
+"Bompenger er avgiften du som bilist betaler når du ferdes på en vei som trenger finansiering utover offentlige midler."
+
+"Bompengene kan kreves inn i forkant av- eller under utbyggingen av et prosjekt, men i de fleste tilfeller innkreves de når prosjektet er ferdigstilt og du benytter den nye veien."
+
+\[1\] (https://skyttelpass.no/, 2022)
+
+------------------------------------------------------------------------
+
+Man benytter hovedsaklig bompenger til å finansiere veier som bygges av stat ellelr kommune, ved å kreve inn penger i etterkan av byggingen fra de som benytter seg av veien, gjerne med en bomring. Dette kan betales for med enkeltpasseringer eller som en abonnementsordning med brikke i frontruta. Andre ting som er blitt mer vanlig å finansiere med bompengene er trafikkbildet i sin helhet med kollektivtilbud, sykkelveier og gangveier.
+
+Bompenger skal også, hvertfall i Norge, være med på å skape insentiv for trafikanter til å ta mer bærekraftige valg. Slik at flere velger å gå, sykle eller ta kollektivt fremfor å kjøre bil. Dette er også et av hovedargumentene for å innføre bompenger i Tromsø. Mens prisdiskrimineringen mellom diesel/bensin- og elbiler når det kommer til bompenger er ett insentiv for at de som må eller velger å kjøre bil, skal velge alternativer med lavere totalutslipp. Samt at rushtidsavgift er et insentiv for å spre trafikken utover dagen, slik at det ikke blir så mye kø i rushtiden.
+
+Utredningen vil i Kapittel 2 bestå av en gjennomgang av data over trafikkaktivitet inn og ut av Tromsøya i Januar til Juni 2022 og 2023, samt data for påstigninger på buss i fra Januar til April i 2022 og 2023, slik at vi kan se på endringene av trafikkmengden over samme perioder i 2022 og 2023, både før og etter inføring av bompenger.
+
+I kapittel 3 vil vi analysere en bilists tilpassing i markedet, både før og etter innføringen av bompenger, og vi vil da se om teorien samsvarer med dataen vi har tilgjengelig, og om vi kan se tegn av de ønskede effektene.
+
+**Kapittel 2 - Trafikkbildet i Tromsø før og etter innføring av bompenger**
+
+I 2022 var den gjennomsnittlig årlige kjørelengden i Tromsø kommune på 514,7 millioner kilometer totalt sett. \[2\] (Statistisk sentralbyrå, 2023)
+
+Vi skal nå se på hvordan trafikkbildet i Tromsø har endret seg det siste året, ved bruk av trafikkpunkter fra Statens vegvesen. Vi skal se på deler av trafikken i Tromsø i 2022, før innføringen av bompenger, og i 2023, etter innføringen av bompenger. Vi vil da se på trafikkpunktene inn og ut av Tromsøya: Tromsøbrua, Sandnessundbrua og Tromsøytunnelen.
+
+Figur 1 og 2 viser trafikken inn og ut av Tromsøya i preiodene Januar til Juni, i både 2022 og 2023.
+
+![](Figur_1.png)
+
+![](Figur_2.png)
+
+Figur 3 og 4 viser antall påstigende på buss i Tromsø i periodene Januar til Juni, i både 2022 og 2023.
+
+![](Figur_3.png)
+
+![](Figur_4.png)
+
+Av figurene kan vi se at trafikken inn og ut av Tromsøya har gått ned i 2023, sammenlignet med 2022. Dette gjelder både for Tromsøbrua, Sandnessundbrua og Tromsøytunnelen. Vi kan også se at antall påstigende på buss har gått opp i 2023, sammenlignet med 2022. Dette kan tyde på at bompengene har hatt en effekt på trafikkbildet i Tromsø, og at flere velger å ta buss fremfor å kjøre bil.
+
+Dette samsvarer med ønsket om å få flere til å velge mer bærekraftige alternativer, og at bompengene skal være med på å skape insentiv for dette.
+
+**Kapittel 3 - Bilisters tilpasning til bompenger**
+
+Vi skal nå se på hvordan en bilist vil tilpasse seg både før og etter innføringen av bompenger.
+
+Til dette vil vi bruke en Stone-Geary nyttefunksjon, som er en funksjon som beskriver en forbrukers preferanser for to varer. I vårt tilfelle vil vi se på to varer, bompenger og andre varer. Jeg har valgt Stone-Geary da denne bedre representerer en konsuments tilpassing til prisendringer, enn en Cobb-Douglas nyttefunksjon, siden den inkluderer ett minimumsforbruk som kan ansees som en nødvendig utgift.
+
+Siden adferdsrelevante transportkostnader hovedsakelig inkluderer kostnader til reisemønsteret, og gjerne ignorerer forsikringspremie og slitasje på bilen, vil vi bruke en transportkostnad på kr 1,125 per kilometer for en bil med forbrenningsmotor. \[5\] (Transportøkonomisk institutt, 2023)
+
+Vi vil se på en bilist som har følgende nyttefunksjon:
+
+Med god hjelp fra oppskrift i forelesningsnotater. \[6\] (Clark, 2023)
+
+$U(x_1, x_2) = \beta_1 ln (x_1-\gamma_1) + \beta_2 ln (x_2-\gamma_2)$
+
+hvor $\beta_1+\beta_2=1$, og $\gamma_1>0, \gamma_2>0$.
+
+------------------------------------------------------------------------
+
+Vi antar at $\gamma_1=\gamma_2=1, \beta_1=0.5, \beta_2=0.5, p_1=1.125, p_2=1, m=50$ i utgangspunktet.
+
+$p_1$ er transportkostnaden per kilometer, og $p_2$ er prisen på andre varer. $m$ er budsjettet til bilisten.
+
+![](Effekt_1.png)
+
+Vår bilist bor 10 kilometer fra jobb, og har ett budsjett på 50 kroner. Vi skal nå se på hvordan bilistens forbruk av kjørekostnader og andre varer endrer seg når bompenger innføres.
+
+Bilisten kjører starter og slutter på jobb innenfor rushtiden, og kjører derfor gjennom bomringen 2 ganger om dagen til rushtidsavgift. Med brikke blir dette kr 28,80 hver vei, og kr 2,88 per kilometer.
+
+Transportkostnaden er nå på kr 1,125 + kr 2,88 = kr 4,005 per kilometer. Men vi runder av til kr 4.
+
+![](Effekt_2.png)
+
+![](Effekt_3.png)
+
+![](Effekt_4.png){fig-align="center"}
+
+Vi ser av totaleffekten i Stone-Geary nyttefunksjonen at bilisten vil kjøre mindre. Da etterspurte kilometer faller fra 22,28 til 6,62.
+
+Ett månedskort for buss i Tromsø koster kr 550, og dersom man benytter seg av dette 20 kilometer per dag, 5 dager i uken over 47 uker, vil dette løpe på kr 1,40 per kilometer.
+
+Siden antall kilometer etterspurt faller til under det som er daglig distanse til og fra jobb, og prisen på buss per kilometer er på kr 1,40, er det forsvarlig å anta at bilisten vil parkere bilen mesteparten av dagene til fordel for buss.
+
+**Kapittel 4 - Konklusjon**
+
+Som vi nå har sett, kan vi se en nedgang i trafikken inn og ut av Tromsøya, og en økning i antall påstigende på buss.
+
+I vår analyse av en bilist som blir påført en bompengeavgift med rushtidssats, så vi at nytten av å kjøre bil falt drastisk, og det er grunn for å tro at bilisten vil velge å ta buss fremfor å kjøre bil.
+
+Vi ser da altså både empirisk og teoretisk bevis for at bomring kan benyttes for å redusere biltrafikken og øke kollektivtrafikken i Tromsø. Og dette er noe som er ønskelig for å redusere klimagassutslippene i Tromsø.
+
+**Referanseliste**
+
+\[1\] Skyttelpass 14/12-2022 - https://skyttelpass.no/nyhetsmagasin/hva-er-bompenger/ (hentet 04/06-2023)
+
+\[2\] Statistisk sentralbyrå 2023 - https://www.ssb.no/statbank/table/12579/ (hentet 04/06-2023)
+
+\[3\] Statens Vegvesen 2023 - https://www.vegvesen.no/trafikkdata/ (hentet 04/06-2023)
+
+\[4\] Troms fylkestrafikk 2023 - https://github.com/uit-sok-1006-v23/uit-sok-1006-v23.github.io/blob/main/data/antall%20p%C3%A5stigende.csv (hentet 04/06-2023)
+
+\[5\] Transportøkonomisk institutt 2022 - https://www.toi.no/getfile.php?mmfileid=74283 (hentet 04/06-2023)
+
+\[6\] Derek J. Clark 2023 - https://github.com/uit-sok-1006-v23/sok1006-notater/blob/main/notater%20forelesning%2014%20med%20l%C3%B8sning.ipynb
